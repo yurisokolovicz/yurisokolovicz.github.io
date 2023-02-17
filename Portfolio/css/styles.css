@@ -1,0 +1,191 @@
+body {
+    font-family: 'Montserrat';
+}
+
+h1 {
+    font-family: 'Montserrat-Black';
+    font-weight: bold;
+    font-size: 3.5rem;
+    line-height: 1.5;
+}
+
+h2 {
+    font-family: 'Montserrat-Black';
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+h3 {
+    font-family: 'Montserrat-Black';
+    font-weight: bold;
+}
+
+p {
+    color: #8f8f8f;
+}
+
+/* # = id type */
+#title {
+    background-color: #2b2829;
+    color: #fff;
+}
+
+#container {
+    background-color: #2b2829;
+}
+
+.container-fluid {
+    padding: 3% 15% 7%;
+}
+
+/* Navbar */
+
+.navbar {
+    padding-bottom: 4.5rem;
+}
+
+.navbar-brand {
+    font-family: 'Ubuntu';
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.nav-item {
+    padding: 0 18px;
+}
+
+.nav-link {
+    font-size: 2rem;
+    font-family: 'Montserrat-light';
+}
+
+/* Download Buttons */
+
+.download-button {
+    margin: 5% 3% 5% 0;
+}
+
+/* Title image */
+/* . = class type */
+.tindog-image {
+    width: 110%;
+    transform: rotate(-15deg);
+    position: absolute;
+    top: -25%;
+    right: 10%;
+}
+
+.natours-image {
+    width: 110%;
+    transform: rotate(15deg);
+    position: absolute;
+    top: -35%;
+    right: 10%;
+}
+
+.guess_my_number-image {
+    width: 110%;
+    transform: rotate(-15deg);
+    position: absolute;
+    top: -35%;
+    right: 10%;
+}
+
+.pig_game-image {
+    width: 110%;
+    transform: rotate(15deg);
+    position: absolute;
+    top: 30%;
+    right: 10%;
+}
+
+.bankist-image {
+    width: 110%;
+    transform: rotate(15deg);
+    position: absolute;
+    top: 10%;
+    right: 10%;
+}
+
+.title-image {
+    width: 110%;
+    transform: rotate(-15deg);
+    position: absolute;
+    top: -10%;
+    right: 10%;
+}
+
+.icon {
+    color: #ef8172;
+    margin-bottom: 1rem;
+}
+
+.icon:hover {
+    color: #ff4c68;
+}
+
+/* Features section */
+/* # = id type */
+#features {
+    padding: 15% 15%;
+    background-color: #fff;
+    position: relative;
+}
+
+#features-2 {
+    padding: 15% 15%;
+    background-color: rgba(113, 165, 113, 0.445);
+    position: relative;
+}
+
+#features-3 {
+    padding: 15% 15%;
+    background-color: #fff;
+    position: relative;
+}
+
+#features-4 {
+    padding: 15% 15%;
+    background-color: rgba(113, 165, 113, 0.445);
+    position: relative;
+}
+
+#features-5 {
+    padding: 15% 15%;
+    background-color: #fff;
+    position: relative;
+}
+
+/* . = class type */
+.feature-box {
+    text-align: center;
+    padding: 5%;
+}
+
+/* Footer Section */
+#footer {
+    padding: 0% 15%;
+    text-align: center;
+}
+
+.social-icon {
+    padding: 10px;
+    margin: 20px 10px;
+    scale: 2;
+}
+
+/* . = class type */
+.pricing-collum {
+    padding: 3% 2%;
+}
+
+@media (max-width: 1028px) {
+    #title {
+        text-align: center;
+    }
+
+    .title-image {
+        position: static; /* the image static is back to the flow of the html*/
+        transform: rotate(0);
+    }
+}
