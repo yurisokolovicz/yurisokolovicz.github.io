@@ -1,46 +1,209 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
   <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="utf-8" />
+    <title>Portfolio</title>
 
+    <!--Google fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900"
+      href="https://fonts.googleapis.com/css2?family=Montserrat&family=Ubuntu&display=swap"
       rel="stylesheet"
     />
 
-    <link rel="stylesheet" href="css/icon-font.css" />
-    <link rel="stylesheet" href="css/style.css" />
-    <link rel="shortcut icon" type="image/png" href="img/favicon.png" />
+    <!-- CSS stylesheets & Bootstrap-->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous"
+    />
 
-    <title>Dr. Yuri Sokolovicz</title>
+    <!-- JavaScript Bundle with Popper -->
+    <script
+      defer
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://kit.fontawesome.com/6b5e9ad10d.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="css/styles.css" />
   </head>
 
   <body>
-    <header class="header">
-      <div class="logo-box">
-        <img src="img/logo.png" alt="logo" class="logo" />
-      </div>
+    <section id="title">
+      <div class="container-fluid">
+        <nav class="navbar navbar-expand-lg navbar-dark">
+          <a class="navbar-brand" href="">Yuri, Ph.D.</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item">
+                <a class="nav-link" href="#features">HTML5</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#features-2">CSS3</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#features-3">JavaScript</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">React</a>
+              </li>
+            </ul>
+          </div>
+        </nav>
 
-      <div class="text-box">
-        <h1 class="heading-primary">
-          <span class="heading-primary-main">Innovation</span>
-          <span class="heading-primary-sub">in Web Development</span>
-        </h1>
-        <a
-          href="https://yurisokolovicz.github.io//TinDog/"
-          class="btn btn-white btn-animated"
-          >Tindog</a
-        >
-        <a
-          href="https://yurisokolovicz.github.io//Natours/"
-          class="btn btn-white btn-animated"
-          >Natours</a
-        >
-        <a href="https://yurisokolovicz.github.io//GuessMyNumber/"" class="btn btn-white btn-animated">Guess My Number</a>
-        <a href="https://yurisokolovicz.github.io//PigGame/" class="btn btn-white btn-animated">Pig Game</a>
-        <a href="https://yurisokolovicz.github.io//Portfolio/" class="btn btn-white btn-animated">New Portfolio</a>
+        <!-- Bootstrap/layout/grid *https://getbootstrap.com/docs/4.0/layout/grid/ -->
+
+        <div class="container" id="container">
+          <div class="row">
+            <div class="col-lg-6 col-md-12 col-sm-12">
+              <h1>I am a Front-end web developer.</h1>
+            </div>
+            <div class="col-lg-6 col-md-12 col-sm-12">
+              <h3>Welcome to my Front-End Web Development site! I'm a web developer with a passion for creating amazing and functional user interfaces.</h1>
+              <button
+                type="button"
+                class="btn btn-outline-light btn-lg download-button"
+              >
+                <i class="fa-brands fa-github" ></i> Github
+              </button>
+            </div>
+          </div>
+        </div>
       </div>
-    </header>
+    </section>
+
+    <!-- Features -->
+
+    <section class="container" id="features">
+      <div class="row">
+            <div class="col-lg-6 col-md-12 col-sm-12">
+              <img
+              class="tindog-image"
+              src="images/tindog.png"
+              alt="tindog-photo"
+            />
+            </div>
+            <div class="col-lg-6 col-md-12 col-sm-12">
+            <h3>TinDog</h3>
+            <button type="button" class="btn btn-dark btn-lg download-button" id="tindog-button-web">Website</button>
+            <button type="button" class="btn btn-outline-dark btn-lg download-button" id="tindog-button-doc">Docs</button>
+            <p>Technology: html5, css3, bootstrap</p>  
+            <p>Project Description.</p>
+            </div>
+      </div>
+    </section>
+
+    <section class="container" id="features-2">
+      <div class="row">
+             <div class="col-lg-6 col-md-12 col-sm-12">
+              <h3>Natours</h3>
+            <button type="button" class="btn btn-dark btn-lg download-button" id="natours-button-web">Website</button>
+            <button type="button" class="btn btn-outline-dark btn-lg download-button" id="natours-button-doc">Docs</button>
+              <p>Technology: html5, css3, sass</p>  
+              <p>Project Description.</p>
+            </div>
+            <div class="col-lg-6 col-md-12 col-sm-12">
+              <img
+              class="natours-image"
+              src="images/natours.png"
+              alt="natours-photo"
+            />
+            </div>
+      </div>
+    </section>
+
+      <section class="container" id="features-3">
+      <div class="row">
+            <div class="col-lg-6 col-md-12 col-sm-12">
+              <img
+              class="guess_my_number-image"
+              src="images/guess_my_number.png"
+              alt="tindog-photo"
+            />
+            </div>
+            <div class="col-lg-6 col-md-12 col-sm-12">
+              <h3>Guess My Number</h3>
+            <button
+                  type="button"
+                  class="btn btn-outline-dark btn-lg download-button"
+                > Access
+            </button>
+            <p>Technology: JavaScript</p>  
+            <p>Project Description.</p>
+            </div>
+      </div>
+    </section>
+
+    <section class="container" id="features-4">
+      <div class="row">
+             <div class="col-lg-6 col-md-12 col-sm-12">
+              <h3>Pig Game</h3>
+            <button
+                  type="button"
+                  class="btn btn-outline-dark btn-lg download-button"
+                > Access
+            </button>
+              <p>Technology: JavaScript</p>  
+              <p>Project Description.</p>
+            </div>
+            <div class="col-lg-6 col-md-12 col-sm-12">
+              <img
+              class="natours-image"
+              src="images/pig_game.png"
+              alt="pig_game-image"
+            />
+            </div>
+      </div>
+    </section>
+
+    <section class="container" id="features-5">
+       <div class="row">
+            <div class="col-lg-6 col-md-12 col-sm-12">
+              <img
+              class="guess_my_number-image"
+              src="images/bankist.png"
+              alt="bankist-image"
+            />
+            </div>
+            <div class="col-lg-6 col-md-12 col-sm-12">
+              <h3>BANKIST</h3>
+            <button
+                  type="button"
+                  class="btn btn-outline-dark btn-lg download-button"
+                > Access
+            </button>
+            <p>Technology: html5, css3, JavaScript</p>  
+            <p>Project Description.</p>
+            </div>
+      </div>
+      </div>
+    </section>
+
+   
+    <!-- Footer -->
+
+    <footer id="footer">
+      <p>
+        © Built by YURI SOKOLOVICZ
+      </p>
+    </footer>
+    <script src="script.js"></script>
   </body>
 </html>
