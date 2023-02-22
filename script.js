@@ -29,3 +29,13 @@ const natoursButtonDoc = document.getElementById("natours-button-doc");
 natoursButtonDoc.addEventListener("click", function () {
   window.location.href = "https://github.com/yurisokolovicz/Natours";
 });
+
+const bankistButtonWeb = document.getElementById("bankist-button-web");
+bankistButtonWeb.addEventListener("click", function () {
+  window.location.href = "https://github.com/yurisokolovicz/BANKIST";
+});
+
+const bankistButtonDoc = document.getElementById("bankist-button-doc");
+bankistButtonDoc.addEventListener("click", function () {
+  window.location.href = "https://github.com/yurisokolovicz/BANKIST";
+});
