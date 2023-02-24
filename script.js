@@ -1,41 +1,66 @@
-"use strict";
+'use strict';
 
-document.querySelector(".navbar-nav").addEventListener("click", function (e) {
-  e.preventDefault();
+document.querySelector('.navbar-nav').addEventListener('click', function (e) {
+    e.preventDefault();
 
-  if (e.target.classList.contains("nav-link")) {
-    const id = e.target.getAttribute("href");
+    if (e.target.classList.contains('nav-link')) {
+        const id = e.target.getAttribute('href');
 
-    document.querySelector(id).scrollIntoView({ behavior: "smooth" });
-  }
+        document.querySelector(id).scrollIntoView({ behavior: 'smooth' });
+    }
 });
 
-const tindogButtonWeb = document.getElementById("tindog-button-web");
-tindogButtonWeb.addEventListener("click", function () {
-  window.location.href = "https://yurisokolovicz.github.io//TinDog/";
+const gitHubButtonWeb = document.getElementById('gitHub-button-web');
+gitHubButtonWeb.addEventListener('click', function () {
+    window.location.href = 'https://github.com/yurisokolovicz';
 });
 
-const tindogButtonDoc = document.getElementById("tindog-button-doc");
-tindogButtonDoc.addEventListener("click", function () {
-  window.location.href = "https://github.com/yurisokolovicz/TinderDog";
+const tindogButtonWeb = document.getElementById('tindog-button-web');
+tindogButtonWeb.addEventListener('click', function () {
+    window.location.href = 'https://yurisokolovicz.github.io//TinDog/';
 });
 
-const natoursButtonWeb = document.getElementById("natours-button-web");
-natoursButtonWeb.addEventListener("click", function () {
-  window.location.href = "https://yurisokolovicz.github.io//Natours/";
+const tindogButtonDoc = document.getElementById('tindog-button-doc');
+tindogButtonDoc.addEventListener('click', function () {
+    window.location.href = 'https://github.com/yurisokolovicz/TinderDog';
 });
 
-const natoursButtonDoc = document.getElementById("natours-button-doc");
-natoursButtonDoc.addEventListener("click", function () {
-  window.location.href = "https://github.com/yurisokolovicz/Natours";
+const natoursButtonWeb = document.getElementById('natours-button-web');
+natoursButtonWeb.addEventListener('click', function () {
+    window.location.href = 'https://yurisokolovicz.github.io//Natours/';
 });
 
-const bankistButtonWeb = document.getElementById("bankist-button-web");
-bankistButtonWeb.addEventListener("click", function () {
-  window.location.href = "https://github.com/yurisokolovicz/BANKIST";
+const natoursButtonDoc = document.getElementById('natours-button-doc');
+natoursButtonDoc.addEventListener('click', function () {
+    window.location.href = 'https://github.com/yurisokolovicz/Natours';
 });
 
-const bankistButtonDoc = document.getElementById("bankist-button-doc");
-bankistButtonDoc.addEventListener("click", function () {
-  window.location.href = "https://github.com/yurisokolovicz/BANKIST";
+const guessMyNumberButtonWeb = document.getElementById('guess_my_number-button-web');
+guessMyNumberButtonWeb.addEventListener('click', function () {
+    window.location.href = 'https://yurisokolovicz.github.io//GuessMyNumber/';
+});
+
+const guessMyNumberButtonDoc = document.getElementById('guess_my_number-button-doc');
+guessMyNumberButtonDoc.addEventListener('click', function () {
+    window.location.href = 'https://github.com/yurisokolovicz/Guess-My-Number';
+});
+
+const piggametButtonWeb = document.getElementById('pig_game-button-web');
+piggametButtonWeb.addEventListener('click', function () {
+    window.location.href = 'https://yurisokolovicz.github.io//PigGame/';
+});
+
+const piggameButtonDoc = document.getElementById('pig_game-button-doc');
+piggameButtonDoc.addEventListener('click', function () {
+    window.location.href = 'https://github.com/yurisokolovicz/Pig-Game';
+});
+
+const bankistButtonWeb = document.getElementById('bankist-button-web');
+bankistButtonWeb.addEventListener('click', function () {
+    window.location.href = 'https://yurisokolovicz.github.io//bankist/';
+});
+
+const bankistButtonDoc = document.getElementById('bankist-button-doc');
+bankistButtonDoc.addEventListener('click', function () {
+    window.location.href = 'https://github.com/yurisokolovicz/BANKIST';
 });
