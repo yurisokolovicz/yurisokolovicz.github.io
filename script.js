@@ -73,7 +73,7 @@ const bankistInterfaceButtonWeb = document.getElementById(
   "bankist_interface-button-web"
 );
 bankistInterfaceButtonWeb.addEventListener("click", function () {
-  window.location.href = "https://yurisokolovicz.github.io//BankistInterface/";
+  window.location.href = "https://yurisokolovicz.github.io//BankistUI/";
 });
 
 const bankistInterfaceButtonDoc = document.getElementById(
