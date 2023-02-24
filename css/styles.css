@@ -1,27 +1,27 @@
 body {
-    font-family: 'Montserrat';
+  font-family: "Montserrat";
 }
 
 h1 {
-    font-family: 'Montserrat-Black';
-    font-weight: bold;
-    font-size: 3.5rem;
-    line-height: 1.5;
+  font-family: "Montserrat-Black";
+  font-weight: bold;
+  font-size: 3.5rem;
+  line-height: 1.5;
 }
 
 h2 {
-    font-family: 'Montserrat-Black';
-    font-size: 3rem;
-    line-height: 1.5;
+  font-family: "Montserrat-Black";
+  font-size: 3rem;
+  line-height: 1.5;
 }
 
 h3 {
-    font-family: 'Montserrat-Black';
-    font-weight: bold;
+  font-family: "Montserrat-Black";
+  font-weight: bold;
 }
 
 p {
-    color: #8f8f8f;
+  color: #8f8f8f;
 }
 
 /* .logo-box {
@@ -36,252 +36,252 @@ p {
 
 /* # = id type */
 #title {
-    background-color: #2b2829;
-    color: #fff;
+  background-color: #2b2829;
+  color: #fff;
 }
 
 @media (max-width: 1028px) {
-    #title {
-        text-align: center;
-    }
+  #title {
+    text-align: center;
+  }
 }
 
 #container {
-    background-color: #2b2829;
+  background-color: #2b2829;
 }
 
 .container-fluid {
-    padding: 3% 15% 7%;
+  padding: 3% 15% 7%;
 }
 
 /* Navbar */
 
 .navbar {
-    padding-bottom: 4.5rem;
+  padding-bottom: 4.5rem;
 }
 
 .navbar-brand {
-    font-family: 'Ubuntu';
-    font-size: 2.5rem;
-    font-weight: bold;
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+  font-weight: bold;
 }
 
 .nav-item {
-    padding: 0 18px;
+  padding: 0 18px;
 }
 
 .nav-link {
-    font-size: 2rem;
-    font-family: 'Montserrat-light';
+  font-size: 2rem;
+  font-family: "Montserrat-light";
 }
 
 /* Download Buttons */
 
 .download-button {
-    margin: 5% 3% 5% 0;
+  margin: 5% 3% 5% 0;
 }
 
 /* Title image */
 /* . = class type */
 .tindog-image {
-    margin-bottom: 50px;
-    scale: 1.2;
-    width: 110%;
-    transform: rotate(0deg);
-    position: absolute;
-    top: -25%;
-    right: 10%;
+  margin-bottom: 50px;
+  scale: 1.2;
+  width: 110%;
+  transform: rotate(0deg);
+  position: absolute;
+  top: -25%;
+  right: 10%;
 }
 
 @media (max-width: 995px) {
-    .tindog-image {
-        margin-bottom: 90px;
-        scale: 1.8;
-        transform: rotate(0deg);
-        padding: 5% 5%;
-        position: static; /* the image static is back to the flow of the html*/
-        text-align: center;
-        width: 100%;
-    }
+  .tindog-image {
+    margin-bottom: 90px;
+    scale: 1.8;
+    transform: rotate(0deg);
+    padding: 5% 5%;
+    position: static; /* the image static is back to the flow of the html*/
+    text-align: center;
+    width: 100%;
+  }
 }
 
 .natours-image {
-    margin-top: 50px;
-    scale: 1.2;
-    width: 110%;
-    transform: rotate(0deg);
-    position: absolute;
-    top: -35%;
-    right: 10%;
+  margin-top: 50px;
+  scale: 1.2;
+  width: 110%;
+  transform: rotate(0deg);
+  position: absolute;
+  top: -35%;
+  right: 0%;
 }
 
 @media (max-width: 995px) {
-    .natours-image {
-        margin-top: 90px;
-        scale: 1.8;
-        transform: rotate(0deg);
-        padding: 5% 5%;
-        position: static;
-        text-align: center;
-        width: 100%;
-    }
+  .natours-image {
+    margin-top: 90px;
+    scale: 1.8;
+    transform: rotate(0deg);
+    padding: 5% 5%;
+    position: static;
+    text-align: center;
+    width: 100%;
+  }
 }
 
 .guess_my_number-image {
-    margin-bottom: 50px;
-    scale: 1.2;
-    width: 110%;
-    transform: rotate(0deg);
-    position: absolute;
-    top: -35%;
-    right: 10%;
+  margin-bottom: 50px;
+  scale: 1.2;
+  width: 110%;
+  transform: rotate(0deg);
+  position: absolute;
+  top: -35%;
+  right: 10%;
 }
 
 @media (max-width: 995px) {
-    .guess_my_number-image {
-        margin-bottom: 110px;
-        scale: 1.8;
-        transform: rotate(0deg);
-        padding: 5% 5%;
-        position: static;
-        text-align: center;
-        width: 100%;
-    }
+  .guess_my_number-image {
+    margin-bottom: 110px;
+    scale: 1.8;
+    transform: rotate(0deg);
+    padding: 5% 5%;
+    position: static;
+    text-align: center;
+    width: 100%;
+  }
 }
 
 .pig_game-image {
-    margin-top: 50px;
-    scale: 1.2;
-    width: 110%;
-    transform: rotate(0deg);
-    position: absolute;
-    top: 30%;
-    right: 10%;
+  margin-top: 50px;
+  scale: 1.2;
+  width: 110%;
+  transform: rotate(0deg);
+  position: absolute;
+  top: -35%;
+  right: 0%;
 }
 
 @media (max-width: 995px) {
-    .pig_game-image {
-        margin-top: 90px;
-        scale: 1.8;
-        transform: rotate(0deg);
-        padding: 5% 5%;
-        position: static;
-        text-align: center;
-        width: 100%;
-    }
+  .pig_game-image {
+    margin-top: 90px;
+    scale: 1.8;
+    transform: rotate(0deg);
+    padding: 5% 5%;
+    position: static;
+    text-align: center;
+    width: 100%;
+  }
 }
 
 .bankist-image {
-    margin-bottom: 50px;
-    scale: 1.2;
-    width: 110%;
-    transform: rotate(0deg);
-    position: absolute;
-    top: 10%;
-    right: 10%;
+  margin-bottom: 50px;
+  scale: 1.2;
+  width: 110%;
+  transform: rotate(0deg);
+  position: absolute;
+  top: 10%;
+  right: 10%;
 }
 
 @media (max-width: 995px) {
-    .bankist-image {
-        margin-bottom: 90px;
-        scale: 1.8;
-        transform: rotate(0deg);
-        padding: 5% 5%;
-        position: static;
-        text-align: center;
-        width: 100%;
-    }
+  .bankist-image {
+    margin-bottom: 90px;
+    scale: 1.8;
+    transform: rotate(0deg);
+    padding: 5% 5%;
+    position: static;
+    text-align: center;
+    width: 100%;
+  }
 }
 
 .title-image {
-    width: 110%;
-    transform: rotate(-15deg);
-    position: absolute;
-    top: -10%;
-    right: 10%;
+  width: 110%;
+  transform: rotate(-15deg);
+  position: absolute;
+  top: -10%;
+  right: 10%;
 }
 
 /* Features section */
 #features {
-    padding: 15% 15%;
-    background-color: #fff;
-    position: relative;
+  padding: 15% 15%;
+  background-color: #fff;
+  position: relative;
 }
 
 @media (max-width: 995px) {
-    #features {
-        text-align: center;
-    }
+  #features {
+    text-align: center;
+  }
 }
 
 #features-2 {
-    padding: 15% 15%;
-    background-color: rgba(113, 165, 113, 0.445);
-    position: relative;
+  padding: 15% 15%;
+  background-color: rgba(113, 165, 113, 0.445);
+  position: relative;
 }
 
 @media (max-width: 995px) {
-    #features-2 {
-        text-align: center;
-    }
+  #features-2 {
+    text-align: center;
+  }
 }
 
 #features-3 {
-    padding: 15% 15%;
-    background-color: #fff;
-    position: relative;
+  padding: 15% 15%;
+  background-color: #fff;
+  position: relative;
 }
 
 @media (max-width: 995px) {
-    #features-3 {
-        position: static;
-        text-align: center;
-        width: 100%;
-    }
+  #features-3 {
+    position: static;
+    text-align: center;
+    width: 100%;
+  }
 }
 
 #features-4 {
-    padding: 15% 15%;
-    background-color: rgba(113, 165, 113, 0.445);
-    position: relative;
+  padding: 15% 15%;
+  background-color: rgba(113, 165, 113, 0.445);
+  position: relative;
 }
 
 @media (max-width: 995px) {
-    #features-4 {
-        position: static;
-        text-align: center;
-        width: 100%;
-    }
+  #features-4 {
+    position: static;
+    text-align: center;
+    width: 100%;
+  }
 }
 
 #features-5 {
-    padding: 15% 15%;
-    background-color: #fff;
-    position: relative;
+  padding: 15% 15%;
+  background-color: #fff;
+  position: relative;
 }
 
 @media (max-width: 995px) {
-    #features-5 {
-        position: static;
-        text-align: center;
-        width: 100%;
-    }
+  #features-5 {
+    position: static;
+    text-align: center;
+    width: 100%;
+  }
 }
 
 .feature-box {
-    text-align: center;
-    padding: 5%;
+  text-align: center;
+  padding: 5%;
 }
 
 /* Footer Section */
 #footer {
-    background-color: #2b2829;
-    padding: 10% 15%;
-    text-align: center;
+  background-color: #2b2829;
+  padding: 10% 15%;
+  text-align: center;
 }
 
 .social-icon {
-    padding: 10px;
-    margin: 20px 10px;
-    scale: 2;
+  padding: 10px;
+  margin: 20px 10px;
+  scale: 2;
 }
