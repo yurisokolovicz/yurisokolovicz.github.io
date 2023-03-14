@@ -83,3 +83,8 @@ bankistInterfaceButtonDoc.addEventListener("click", function () {
   window.location.href =
     "https://github.com/yurisokolovicz/js-projects/tree/main/12-Numbers-Dates-Timers-Bankist/starter";
 });
+
+const yufoodButtonWeb = document.getElementById("yufood-button-web");
+yufoodButtonWeb.addEventListener("click", function () {
+  window.location.href = "https://yufood.netlify.app/#5ed6604591c37cdc054bcc3e";
+});

@@ -215,6 +215,28 @@ p {
   }
 }
 
+.yufood-image {
+  margin-bottom: 50px;
+  scale: 1.2;
+  width: 110%;
+  transform: rotate(0deg);
+  position: absolute;
+  top: 10%;
+  right: 10%;
+}
+
+@media (max-width: 995px) {
+  .yufood-image {
+    margin-bottom: 90px;
+    scale: 1.8;
+    transform: rotate(0deg);
+    padding: 5% 5%;
+    position: static;
+    text-align: center;
+    width: 100%;
+  }
+}
+
 .title-image {
   width: 110%;
   transform: rotate(-15deg);
@@ -298,6 +320,20 @@ p {
 
 @media (max-width: 995px) {
   #features-6 {
+    position: static;
+    text-align: center;
+    width: 100%;
+  }
+}
+
+#features-7 {
+  padding: 15% 15%;
+  background-color: #fff;
+  position: relative;
+}
+
+@media (max-width: 995px) {
+  #features-7 {
     position: static;
     text-align: center;
     width: 100%;
