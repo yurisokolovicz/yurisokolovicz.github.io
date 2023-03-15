@@ -39,7 +39,7 @@ const guessMyNumberButtonWeb = document.getElementById(
   "guess_my_number-button-web"
 );
 guessMyNumberButtonWeb.addEventListener("click", function () {
-  window.location.href = "https://yurisokolovicz.github.io//GuessMyNumber/";
+  window.location.href = "https://guess-my-number-yu.netlify.app";
 });
 
 const guessMyNumberButtonDoc = document.getElementById(
