@@ -237,6 +237,50 @@ p {
   }
 }
 
+.expenses-image {
+  margin-top: 50px;
+  scale: 1.2;
+  width: 110%;
+  transform: rotate(0deg);
+  position: absolute;
+  top: -105%;
+  right: 0%;
+}
+
+@media (max-width: 995px) {
+  .expenses-image {
+    margin-top: 90px;
+    scale: 1.8;
+    transform: rotate(0deg);
+    padding: 5% 5%;
+    position: static;
+    text-align: center;
+    width: 100%;
+  }
+}
+
+.yu-restaurant-image {
+  margin-bottom: 50px;
+  scale: 1.2;
+  width: 110%;
+  transform: rotate(0deg);
+  position: absolute;
+  top: -60%;
+  right: 10%;
+}
+
+@media (max-width: 995px) {
+  .yu-restaurant-image {
+    margin-bottom: 90px;
+    scale: 1.8;
+    transform: rotate(0deg);
+    padding: 15% 5%;
+    position: static;
+    text-align: center;
+    width: 110%;
+  }
+}
+
 .title-image {
   width: 110%;
   transform: rotate(-15deg);
@@ -334,6 +378,34 @@ p {
 
 @media (max-width: 995px) {
   #features-7 {
+    position: static;
+    text-align: center;
+    width: 100%;
+  }
+}
+
+#features-8 {
+  padding: 15% 15%;
+  background-color: rgba(113, 165, 113, 0.445);
+  position: relative;
+}
+
+@media (max-width: 995px) {
+  #features-8 {
+    position: static;
+    text-align: center;
+    width: 100%;
+  }
+}
+
+#features-9 {
+  padding: 15% 15%;
+  background-color: #fff;
+  position: relative;
+}
+
+@media (max-width: 995px) {
+  #features-9 {
     position: static;
     text-align: center;
     width: 100%;

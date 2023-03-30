@@ -88,3 +88,15 @@ const yufoodButtonWeb = document.getElementById("yufood-button-web");
 yufoodButtonWeb.addEventListener("click", function () {
   window.location.href = "https://yufood.netlify.app/#5ed6604591c37cdc054bcc3e";
 });
+
+const expenseButtonWeb = document.getElementById("expense-button-web");
+expenseButtonWeb.addEventListener("click", function () {
+  window.location.href = "https://yu-expenses.netlify.app/";
+});
+
+const yurestaurantButtonWeb = document.getElementById(
+  "yurestaurant-button-web"
+);
+yurestaurantButtonWeb.addEventListener("click", function () {
+  window.location.href = "https://yu-restaurant.netlify.app/";
+});
