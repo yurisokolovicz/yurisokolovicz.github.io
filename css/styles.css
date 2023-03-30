@@ -101,8 +101,8 @@ p {
     padding: 5% 5%;
     position: static; /* the image static is back to the flow of the html*/
     text-align: center;
-    padding-bottom: 7rem;
-    width: 100%;
+    padding-bottom: 2rem;
+    width: 390px;
   }
 }
 
@@ -122,10 +122,10 @@ p {
     scale: 1.8;
     transform: rotate(0deg);
     padding: 5% 5%;
-    padding-top: 7rem;
+    padding-top: 2rem;
     position: static;
     text-align: center;
-    width: 100%;
+    width: 390px;
   }
 }
 
@@ -145,10 +145,10 @@ p {
     scale: 1.8;
     transform: rotate(0deg);
     padding: 5% 5%;
-    padding-bottom: 7rem;
+    padding-bottom: 2rem;
     position: static;
     text-align: center;
-    width: 100%;
+    width: 390px;
   }
 }
 
@@ -168,10 +168,10 @@ p {
     scale: 1.8;
     transform: rotate(0deg);
     padding: 5% 5%;
-    padding-top: 7rem;
+    padding-top: 2rem;
     position: static;
     text-align: center;
-    width: 100%;
+    width: 390px;
   }
 }
 
@@ -191,10 +191,10 @@ p {
     scale: 1.8;
     transform: rotate(0deg);
     padding: 5% 5%;
-    padding-bottom: 7rem;
+    padding-bottom: 2rem;
     position: static;
     text-align: center;
-    width: 100%;
+    width: 390px;
   }
 }
 
@@ -214,10 +214,10 @@ p {
     scale: 1.8;
     transform: rotate(0deg);
     padding: 5% 5%;
-    padding-top: 7rem;
+    padding-top: 2rem;
     position: static;
     text-align: center;
-    width: 100%;
+    width: 390px;
   }
 }
 
@@ -237,10 +237,10 @@ p {
     scale: 1.8;
     transform: rotate(0deg);
     padding: 5% 5%;
-    padding-bottom: 7rem;
+    padding-bottom: 2rem;
     position: static;
     text-align: center;
-    width: 100%;
+    width: 390px;
   }
 }
 
@@ -261,10 +261,10 @@ p {
     scale: 1.8;
     transform: rotate(0deg);
     padding: 5% 5%;
-    padding-top: 7rem;
+    padding-top: 3rem;
     position: static;
     text-align: center;
-    width: 100%;
+    width: 390px;
   }
 }
 
@@ -284,10 +284,10 @@ p {
     scale: 1.8;
     transform: rotate(0deg);
     padding: 10% 5%;
-    padding-bottom: 7rem;
+    padding-bottom: 2rem;
     position: static;
     text-align: center;
-    width: 100%;
+    width: 390px;
   }
 }
 
