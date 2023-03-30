@@ -261,7 +261,7 @@ p {
     scale: 1.8;
     transform: rotate(0deg);
     padding: 5% 5%;
-    padding-top: 5rem;
+    padding-top: 6rem;
     position: static;
     text-align: center;
     width: 500px;
@@ -284,7 +284,7 @@ p {
     scale: 1.8;
     transform: rotate(0deg);
     padding: 10% 5%;
-    padding-bottom: 5rem;
+    padding-bottom: 6rem;
     position: static;
     text-align: center;
     width: 500px;
