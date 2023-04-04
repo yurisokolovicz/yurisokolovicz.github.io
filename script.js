@@ -32,7 +32,8 @@ natoursButtonWeb.addEventListener("click", function () {
 
 const natoursButtonDoc = document.getElementById("natours-button-doc");
 natoursButtonDoc.addEventListener("click", function () {
-  window.location.href = "https://github.com/yurisokolovicz/Natours";
+  window.location.href =
+    "https://github.com/yurisokolovicz/Natours/tree/deploy";
 });
 
 const guessMyNumberButtonWeb = document.getElementById(
