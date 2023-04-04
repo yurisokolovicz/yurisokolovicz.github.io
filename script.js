@@ -61,12 +61,13 @@ piggameButtonDoc.addEventListener("click", function () {
 
 const bankistButtonWeb = document.getElementById("bankist-button-web");
 bankistButtonWeb.addEventListener("click", function () {
-  window.location.href = "https://yurisokolovicz.github.io//bankist/";
+  window.location.href = "https://yu-bankist.netlify.app/";
 });
 
 const bankistButtonDoc = document.getElementById("bankist-button-doc");
 bankistButtonDoc.addEventListener("click", function () {
-  window.location.href = "https://github.com/yurisokolovicz/BANKIST";
+  window.location.href =
+    "https://github.com/yurisokolovicz/BANKIST/commits/deploy";
 });
 
 const bankistInterfaceButtonWeb = document.getElementById(

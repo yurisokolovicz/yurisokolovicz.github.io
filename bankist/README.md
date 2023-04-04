@@ -1,3 +1,0 @@
-# BANKIST
-
-Bank Web site
