@@ -17,7 +17,7 @@ gitHubButtonWeb.addEventListener("click", function () {
 
 const tindogButtonWeb = document.getElementById("tindog-button-web");
 tindogButtonWeb.addEventListener("click", function () {
-  window.location.href = "https://yurisokolovicz.github.io//TinDog/";
+  window.location.href = "https://yu-tindog.netlify.app/";
 });
 
 const tindogButtonDoc = document.getElementById("tindog-button-doc");
@@ -27,7 +27,7 @@ tindogButtonDoc.addEventListener("click", function () {
 
 const natoursButtonWeb = document.getElementById("natours-button-web");
 natoursButtonWeb.addEventListener("click", function () {
-  window.location.href = "https://yurisokolovicz.github.io//Natours/";
+  window.location.href = "https://yu-natours.netlify.app/";
 });
 
 const natoursButtonDoc = document.getElementById("natours-button-doc");
@@ -51,7 +51,7 @@ guessMyNumberButtonDoc.addEventListener("click", function () {
 
 const piggametButtonWeb = document.getElementById("pig_game-button-web");
 piggametButtonWeb.addEventListener("click", function () {
-  window.location.href = "https://yurisokolovicz.github.io//PigGame/";
+  window.location.href = "https://yu-pig-game.netlify.app/";
 });
 
 const piggameButtonDoc = document.getElementById("pig_game-button-doc");
@@ -74,7 +74,7 @@ const bankistInterfaceButtonWeb = document.getElementById(
   "bankist_interface-button-web"
 );
 bankistInterfaceButtonWeb.addEventListener("click", function () {
-  window.location.href = "https://yurisokolovicz.github.io//BankistUI/";
+  window.location.href = "https://yu-bankist-ui.netlify.app/";
 });
 
 const bankistInterfaceButtonDoc = document.getElementById(
