@@ -85,9 +85,9 @@ p {
 /* . = class type */
 .tindog-image {
   margin-bottom: 50px;
-  scale: 1.2;
+  transform: scale(1.2);
   width: 110%;
-  transform: rotate(0deg);
+  /* transform: rotate(0deg); */
   position: absolute;
   top: -55%;
   right: 10%;
@@ -96,8 +96,7 @@ p {
 @media (max-width: 995px) {
   .tindog-image {
     margin-bottom: 90px;
-    scale: 1.8;
-    transform: rotate(0deg);
+    transform: scale(1.8) rotate(0deg);
     padding: 5% 5%;
     position: static; /* the image static is back to the flow of the html*/
     text-align: center;
@@ -108,9 +107,9 @@ p {
 
 .natours-image {
   margin-top: 50px;
-  scale: 1.2;
+  transform: scale(1.2);
   width: 110%;
-  transform: rotate(0deg);
+  /* transform: rotate(0deg); */
   position: absolute;
   top: -70%;
   right: 0%;
@@ -119,8 +118,7 @@ p {
 @media (max-width: 995px) {
   .natours-image {
     margin-top: 90px;
-    scale: 1.8;
-    transform: rotate(0deg);
+    transform: scale(1.8) rotate(0deg);
     padding: 5% 5%;
     padding-top: 4rem;
     position: static;
@@ -131,9 +129,9 @@ p {
 
 .guess_my_number-image {
   margin-bottom: 50px;
-  scale: 1.2;
+  transform: scale(1.2);
   width: 110%;
-  transform: rotate(0deg);
+  /* transform: rotate(0deg); */
   position: absolute;
   top: -55%;
   right: 10%;
@@ -142,8 +140,7 @@ p {
 @media (max-width: 995px) {
   .guess_my_number-image {
     margin-bottom: 110px;
-    scale: 1.8;
-    transform: rotate(0deg);
+    transform: scale(1.8) rotate(0deg);
     padding: 5% 5%;
     padding-bottom: 4rem;
     position: static;
@@ -154,9 +151,9 @@ p {
 
 .pig_game-image {
   margin-top: 50px;
-  scale: 1.2;
+  transform: scale(1.2);
   width: 110%;
-  transform: rotate(0deg);
+  /* transform: rotate(0deg); */
   position: absolute;
   top: -65%;
   right: 0%;
@@ -165,8 +162,7 @@ p {
 @media (max-width: 995px) {
   .pig_game-image {
     margin-top: 90px;
-    scale: 1.8;
-    transform: rotate(0deg);
+    transform: scale(1.8) rotate(0deg);
     padding: 5% 5%;
     padding-top: 4rem;
     position: static;
@@ -177,9 +173,9 @@ p {
 
 .bankist-image {
   margin-bottom: 50px;
-  scale: 1.2;
+  transform: scale(1.2);
   width: 110%;
-  transform: rotate(0deg);
+  /* transform: rotate(0deg); */
   position: absolute;
   top: -50%;
   right: 10%;
@@ -188,8 +184,7 @@ p {
 @media (max-width: 995px) {
   .bankist-image {
     margin-bottom: 90px;
-    scale: 1.8;
-    transform: rotate(0deg);
+    transform: scale(1.8) rotate(0deg);
     padding: 5% 5%;
     padding-bottom: 4rem;
     position: static;
@@ -200,9 +195,9 @@ p {
 
 .bankist_interface-image {
   margin-top: 50px;
-  scale: 1.2;
+  transform: scale(1.2);
   width: 110%;
-  transform: rotate(0deg);
+  /* transform: rotate(0deg); */
   position: absolute;
   top: -40%;
   right: 0%;
@@ -211,8 +206,7 @@ p {
 @media (max-width: 995px) {
   .bankist_interface-image {
     margin-top: 90px;
-    scale: 1.8;
-    transform: rotate(0deg);
+    transform: scale(1.8) rotate(0deg);
     padding: 5% 5%;
     padding-top: 4rem;
     position: static;
@@ -223,9 +217,9 @@ p {
 
 .yufood-image {
   margin-bottom: 50px;
-  scale: 1.2;
+  transform: scale(1.2);
   width: 110%;
-  transform: rotate(0deg);
+  /* transform: rotate(0deg); */
   position: absolute;
   top: -20%;
   right: 10%;
@@ -234,8 +228,7 @@ p {
 @media (max-width: 995px) {
   .yufood-image {
     margin-bottom: 90px;
-    scale: 1.8;
-    transform: rotate(0deg);
+    transform: scale(1.8) rotate(0deg);
     padding: 5% 5%;
     padding-bottom: 4rem;
     position: static;
@@ -246,20 +239,43 @@ p {
 
 .expenses-image {
   margin-top: 50px;
-  scale: 1.2;
+  transform: scale(1.2);
   width: 110%;
-  transform: rotate(0deg);
+  /* transform: rotate(0deg); */
   position: absolute;
-  top: -60%;
+  top: -250px;
   right: 0%;
   max-width: 100%;
+}
+
+@media (max-width: 3000px) {
+  .expenses-image {
+    top: -300px;
+  }
+}
+
+@media (max-width: 2200px) {
+  .expenses-image {
+    top: -200px;
+  }
+}
+
+@media (max-width: 1800px) {
+  .expenses-image {
+    top: -150px;
+  }
+}
+
+@media (max-width: 1400px) {
+  .expenses-image {
+    top: -100px;
+  }
 }
 
 @media (max-width: 995px) {
   .expenses-image {
     margin-top: 90px;
-    scale: 1.8;
-    transform: rotate(0deg);
+    transform: scale(1.8) rotate(0deg);
     padding: 10% 5%;
     padding-top: 6rem;
     position: static;
@@ -270,19 +286,60 @@ p {
 
 .yu-restaurant-image {
   margin-bottom: 50px;
-  scale: 1.2;
+  transform: scale(1.2);
   width: 110%;
-  transform: rotate(0deg);
+  /* transform: rotate(0deg); */
   position: absolute;
-  top: -40%;
+  top: -100px;
   right: 10%;
+}
+
+@media (max-width: 3000px) {
+  .yu-restaurant-image {
+    top: -220px;
+  }
+}
+
+@media (max-width: 2600px) {
+  .yu-restaurant-image {
+    top: -200px;
+  }
+}
+
+@media (max-width: 2200px) {
+  .yu-restaurant-image {
+    top: -180px;
+  }
+}
+
+@media (max-width: 2200px) {
+  .yu-restaurant-image {
+    top: -150px;
+  }
+}
+
+@media (max-width: 1800px) {
+  .yu-restaurant-image {
+    top: -120px;
+  }
+}
+
+@media (max-width: 1400px) {
+  .yu-restaurant-image {
+    top: -50px;
+  }
+}
+
+@media (max-width: 1200px) {
+  .yu-restaurant-image {
+    top: 0px;
+  }
 }
 
 @media (max-width: 995px) {
   .yu-restaurant-image {
     margin-bottom: 90px;
-    scale: 1.8;
-    transform: rotate(0deg);
+    transform: scale(1.8) rotate(0deg);
     padding: 10% 5%;
     padding-bottom: 6rem;
     position: static;
