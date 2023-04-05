@@ -312,7 +312,7 @@ p {
   }
 }
 
-@media (max-width: 2200px) {
+@media (max-width: 2000px) {
   .yu-restaurant-image {
     top: -150px;
   }
